@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/mattmarshall/meridian",
+  "homepage": "https://github.com/fastverk/rules_aws_workflows",
   "maintainers": [
     {
       "name": "Matt Marshall",
@@ -7,11 +7,10 @@
     }
   ],
   "repository": [
-    "github:mattmarshall/meridian"
+    "github:fastverk/rules_aws_workflows"
   ],
   "versions": [
-    "0.1.0",
-    "0.2.0"
+    "0.1.0"
   ],
   "yanked_versions": {}
 }
