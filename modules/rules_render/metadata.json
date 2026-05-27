@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/fastverk/rules_render",
+  "maintainers": [
+    {
+      "name": "Matt Marshall",
+      "github": "mattmarshall"
+    }
+  ],
+  "repository": [
+    "github:fastverk/rules_render"
+  ],
+  "versions": [
+    "0.3.0"
+  ],
+  "yanked_versions": {}
+}

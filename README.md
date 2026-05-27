@@ -22,6 +22,17 @@ fetching tarballs requires auth (see "Auth" below).
 | [`rules_lora`](https://github.com/fastverk/rules_lora) | 0.0.1 | Bazel-native LoRA fine-tuning. Four declarative macros: `lora_dataset`, `lora_recipe`, `lora_train`, `expert_manifest`. RunPod / local-CPU backends; torchtune-rendered recipes. |
 | [`rules_meson`](https://github.com/fastverk/rules_meson) | 0.0.0 | Hermetic meson + ninja toolchain for Bazel. `meson_configure` runs `meson setup` as a build action; consumers get a deterministic `compile_commands.json`. |
 
+### UI + rendering (proto-driven + WGSL)
+
+| Module | Latest | Description |
+|---|---|---|
+| [`meridian`](https://github.com/mattmarshall/meridian) | 0.1.0 | Proto-driven multi-platform UI framework. Descriptor-driven renderers across TS/Java/Rust surfaces. |
+| [`pinax`](https://github.com/mattmarshall/pinax) | 0.1.0 | Meridian-backed JVM application + adhoc-factory web surface (sparql / graph / knowledge probes). |
+| [`rules_naga`](https://github.com/fastverk/rules_naga) | 0.6.1 | Bazel-native WGSL validation, composition, and JS-module emission. Wraps `naga` (Mozilla's WGSL compiler) as a `rust_binary` driver. |
+| [`wgsl_stdlib`](https://github.com/fastverk/wgsl_stdlib) | 0.4.0 | Reusable WebGPU shader snippets (colormap, complex math, ζ-function, lighting, mesh, contour/grid) validated via `rules_naga`. |
+| [`rules_render`](https://github.com/fastverk/rules_render) | 0.3.0 | Bazel-native WGSL rendering framework. Typed providers + rules for materials, surfaces, scenes, passes, pipelines, and apps. |
+| [`rules_walkthrough`](https://github.com/fastverk/rules_walkthrough) | 0.1.0 | Bazel rules for declarative slide-deck rendering: `walkthrough.v1.Walkthrough` JSON → self-contained static site (renderer JS + KaTeX + marked + per-deck data sidecars). |
+
 ### Embedded systems (seL4 / microkit / hardware)
 
 | Module | Latest | Description |
