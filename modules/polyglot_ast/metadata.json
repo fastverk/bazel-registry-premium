@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/fastverk/polyglot_ast",
+  "maintainers": [
+    {
+      "name": "Matt Marshall",
+      "github": "mattmarshall"
+    }
+  ],
+  "repository": [
+    "github:fastverk/polyglot_ast"
+  ],
+  "versions": [
+    "0.0.1"
+  ],
+  "yanked_versions": {}
+}
